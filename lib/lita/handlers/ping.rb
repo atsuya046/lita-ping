@@ -11,7 +11,7 @@ module Lita
       end
 
       def reply(response)
-        response.reply "PONG"
+        response.reply "PONG!!!"
       end
     end
 

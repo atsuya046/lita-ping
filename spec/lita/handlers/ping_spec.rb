@@ -7,7 +7,7 @@ describe Lita::Handlers::Ping, lita_handler: true do
 
     it "replies to a ping command" do
       send_command("ping")
-      expect(replies.last).to eq("PONG")
+      expect(replies.last).to eq("PONG!!!")
     end
 
   end
